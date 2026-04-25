@@ -30,6 +30,6 @@ app.get('/path', (req, res) => {
   res.send(`Hostname: ${hostname}, IP Address: ${ipAddress}`);
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log("Server is running on port 3000");
 });
